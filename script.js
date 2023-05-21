@@ -37,7 +37,7 @@ function generateBill(){
         
          
          grandTotal.innerHTML=`<td contenteditable="false">Total Price</td>
-        <td contenteditable="false" data-ns-test="grandTotal">${sum}</td>`
+        <td contenteditable="false"  data-ns-test=grandTotal>${sum}</td>`
          
          sum=0;
         
